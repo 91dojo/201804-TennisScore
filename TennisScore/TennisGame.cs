@@ -14,6 +14,7 @@ namespace TennisScore
 
         public string ScoreResult(int gameId)
         {
+            //middle man smell
             return this._repo.GetGame(gameId).ScoreResult();
         }
     }
